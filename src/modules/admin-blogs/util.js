@@ -6,11 +6,11 @@ export const headers = [
   {
     title: "Title",
     key: "title",
+    sortable: false,
   },
   {
     title: "Author",
     key: "author",
-    sortable: true,
   },
   { title: "Actions", key: "actions", sortable: false },
 ];

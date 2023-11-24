@@ -2,7 +2,7 @@ import axios from "axios";
 
 // =========add your api======================
 const api = axios.create({
-  baseURL: "http://localhost:3333", //your api
+  baseURL: import.meta.env.VITE_API_HOST, //your api
 });
 // ============================================
 
@@ -65,9 +65,9 @@ export const createPost = async (postData) => {
 // ============================================================
 
 // ===GET single data (deep searching from api with author name)=====
-export const searchSingleDataFromApi = async (author) => {
+export const searchSingleDataFromApi = async (keyword) => {
   try {
-    const response = await api.get(`/posts?author=${author}`);
+    const response = await api.get(`/posts?q=${keyword}`);
     return response.data;
   } catch (error) {
     throw error;
