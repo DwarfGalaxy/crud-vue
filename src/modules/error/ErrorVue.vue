@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { errorMessage } from "../../../utils";
+import { errorMessage } from "@/utils/index";
 const snackbar = ref(true);
 </script>
 

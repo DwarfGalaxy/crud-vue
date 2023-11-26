@@ -8,8 +8,8 @@ import { createPost } from "./service";
 
 import { searchSingleDataFromApi } from "./service";
 
-import { commonErrorHandler } from "../../../utils";
-import { successMessage } from "../../../utils";
+import { commonErrorHandler } from "@/utils/index";
+import { successMessage } from "../../utils";
 
 export const useDataStore = defineStore("data", () => {
   // =========Reactive state========================

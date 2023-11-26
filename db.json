@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "title": "Yubraj Koirala",
-      "author": "shyam",
-      "id": 2
-    },
-    {
       "title": "qqqqq",
       "author": "qqqqqqq",
       "id": 25
@@ -139,6 +134,11 @@
       "title": "lutalo",
       "author": "Putali",
       "id": 61
+    },
+    {
+      "title": "Ram Bah",
+      "author": "gg",
+      "id": 62
     }
   ],
   "comments": [],
