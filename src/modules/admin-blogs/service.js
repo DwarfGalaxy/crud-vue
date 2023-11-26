@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// =========add your api======================
+// =========add your api=========================
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_HOST, //your api
 });
